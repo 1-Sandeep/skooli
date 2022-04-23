@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Nav Bar CSS start */
+
+ul,
+li,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+nav {
+  height: 75px;
+  width: auto;
+}
+nav .logo {
+  width: 200px;
+  float: left;
+}
+nav .logo img {
+  width: 150px;
+  height: 65px;
+  object-fit: contain;
+}
+ul.menu {
+  width: auto;
+  float: right;
+  margin-top: 25px;
+}
+ul.menu li {
+  float: left;
+}
+ul.menu li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12pt;
+  padding: 15px;
+}
+ul.menu li:last-child a {
+  background-color: #4a3d99;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px, 35px;
+}
+ul.menu li:nth-child(6) {
+  margin-left: 70px;
+}
+
+/* ul.menu li a:hover {
+  width: auto;
+  color: #4a3d99;
+  background-color: #fff;
+  border-bottom: #4a3d99 solid 2px;
+} */
+
+/* Nav Bar CSS end */
+/* ============================================== */
+/* Hero Section CSS start */
+
+section.hero {
+  width: 100%;
+  height: calc(100vh - 75px);
+}
+section.hero .content {
+  width: 45%;
+  margin-right: 5%;
+  float: left;
+  margin-top: 100px;
+}
+section.hero .content span {
+  width: auto;
+  padding: 5px 15px;
+  background-color: #e8e5f6;
+  color: #4a3d99;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 10pt;
+  line-height: 35pt;
+}
+
+section.hero .content h1 {
+  font-size: 30pt;
+  font-weight: 900;
+  line-height: 43pt;
+  margin-bottom: 20px 0px;
+}
+section.hero .content p {
+  font-size: 13pt;
+  line-height: 26pt;
+}
+
+a.btn-primary {
+  background-color: #4a3d99;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 40px;
+  display: block;
+  float: left;
+  margin-top: 25px;
+  text-decoration: none;
+  border: transparent 2px solid;
+}
+
+a.button:hover {
+  background-color: #f5f4f9;
+  color: #4a3d99;
+  border: #4a3d99 2px solid;
+}
+
+section.hero .image {
+  width: 45%;
+  margin-left: 5%;
+  float: right;
+  margin-top: 85px;
+}
+section.hero .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+/* Hero Section CSS end */
+/* ============================================== */
+/* Features Section CSS start */
+
+section.features {
+  width: auto;
+  height: auto;
+  padding: 80px 0;
+}
+
+section.features h2 {
+  font-size: 22pt;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+section.features ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 65px;
+}
+section.features ul li {
+  width: calc(25% - 30px);
+  float: left;
+  padding: 15px;
+  text-align: left;
+}
+section.features ul li img {
+  width: 45px;
+  margin-bottom: 10px;
+}
+section.features ul li h3 {
+  font-size: 14pt;
+  line-height: 28pt;
+  color: #000;
+}
+section.features ul li p {
+  font-size: 10pt;
+  line-height: 14pt;
+  color: #000;
+}
+
+section.features ul li:nth-child(1) {
+  width: calc(25% - 15px);
+  padding-left: 0px;
+}
+section.features ul li:nth-child(4) {
+  width: calc(25% - 15px);
+  padding-right: 0px;
+}
+
+/* section.features ul li:hover {
+  background-color: #4a3d99;
+  box-shadow: 0 0 5px #4a3d99;
+} */
+
+/* Features Section CSS end */
+/* ============================================== */
+/* Hero2 and Hero3 Section CSS start */
+
+section.hero2,
+section.hero3 {
+  width: 100%;
+  height: calc(75vh - 75px);
+  /* margin: 30px; */
+  background-color: #f5f4f9;
+  padding: 35px 0 125px 0;
+}
+
+section.hero2 .image,
+section.hero3 .image {
+  width: 40%;
+  /* margin-left: 5%; */
+  float: left;
+  /* margin-top: -75px; */
+}
+
+section.hero2 .image img,
+section.hero3 .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+section.hero2 .content,
+section.hero3 .content {
+  width: 45%;
+  margin-left: 5%;
+  float: right;
+  margin-top: 25px;
+}
+
+section.hero2 .content span,
+section.hero3 .content span {
+  width: auto;
+  padding: 5px 15px;
+  background-color: #e8e5f6;
+  color: #4a3d99;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 10pt;
+  line-height: 35pt;
+}
+
+section.hero2 .content h2,
+section.hero3 .content h2 {
+  font-size: 30pt;
+  font-weight: 600;
+  line-height: 43pt;
+  margin-bottom: 20px 0px;
+}
+
+section.hero2 .content p,
+section.hero3 .content p {
+  font-size: 13pt;
+  line-height: 26pt;
+}
+
+/* Hero2 Section CSS end */
+/* ============================================== */
+/* Categories Section CSS start */
+
+section.categories {
+  width: 100%;
+  height: auto;
+  margin: 80px 0;
+}
+section.categories .content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+section.categories .content h2 {
+  font-size: 22pt;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 20px 0;
+  /* text-align: left; */
+}
+section.categories .content p {
+  font-size: 14pt;
+  line-height: 26pt;
+}
+
+section.categories ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 65px;
+}
+
+section.categories ul li {
+  width: calc(25% - 30px);
+  float: left;
+  justify-content: space-evenly;
+  padding: 15px;
+  text-align: center;
+}
+
+section.categories ul li .tutor-count {
+  font-size: 9pt;
+  line-height: 28pt;
+  color: #000;
+}
+
+ul li p {
+  margin-top: 20px;
+}
+
+section.categories ul li .location-available {
+  font-size: 9pt;
+  line-height: 28pt;
+  color: #000;
+}
+
+/* section.categories ul li:nth-child(1) {
+  width: calc(25% - 15px);
+  padding-left: 0px;
+}
+section.categories ul li:nth-child(4) {
+  width: calc(25% - 15px);
+  padding-right: 0px;
+} */
+a .view-details {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.view-details {
+  color: #4a3d99;
+  /* padding: 0 40px; */
+  float: left;
+  margin-top: 20px;
+  text-decoration: none;
+  justify-content: center;
+}
+.view-details:hover {
+  color: #4a3d99;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Categories Section CSS end */
+/* ============================================== */
+/*ReachUs Section CSS start*/
+
+section.reach-us {
+  width: 100%;
+  height: auto;
+  margin: 80px 0;
+}
+section.reach-us .content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+section.reach-us .content h2 {
+  font-size: 22pt;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 20px 0;
+}
+section.reach-us .content p {
+  font-size: 14pt;
+  line-height: 26pt;
+}
+section.reach-us ul {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  margin-top: 65px;
+}
+section.reach-us ul li {
+  width: calc(33.33% - 60px);
+  height: auto;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  text-align: justify;
+  background-color: #f1f0f8;
+  border-radius: 15px;
+  min-height: 135px;
+  /* border: #4a3d99 solid 1px; */
+}
+section.reach-us ul li span {
+  background-color: #e0ddee;
+  /* display: block; */
+  text-align: center;
+  padding: 10px;
+  line-height: 50pt;
+  color: #4a3d99;
+  border-radius: 50%;
+}
+section.reach-us ul li p {
+  font-size: 12px;
+}
+
+/* ReachUs Section CSS ends */
+
+/* ===================================== */
+
+/*Register form CSS start*/
