@@ -46,7 +46,7 @@ button:hover {
 
 .register-form {
   width: 520px;
-  height: 300px;
+  /* height: 300px; */
   /* min-height: 360px; */
   background-color: #fff;
   border: 1px solid #d4d4d4;
