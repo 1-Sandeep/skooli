@@ -1,18 +1,21 @@
 <template>
-  <Navigation />
-
-  <RouterView />
-  <Footer />
-  <!-- <router-view></router-view> -->
+  <WebsiteView v-if="!isUserLogin" />
+  <DashboardView v-else />
 </template>
 
 <script>
-import Navigation from "./components/Navigation.vue";
-import Footer from "./components/Footer.vue";
+import WebsiteView from "./components/site-view/WebsiteView.vue";
+import DashboardView from "./components/site-view/Dashboard.vue";
+
 export default {
   components: {
-    Navigation,
-    Footer,
+    WebsiteView,
+    DashboardView,
+  },
+  data() {
+    return {
+      isUserLogin: false,
+    };
   },
 };
 </script>

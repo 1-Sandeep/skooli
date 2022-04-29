@@ -12,7 +12,7 @@
         <a href="#" class="btn-primary">Enroll Now</a>
       </div>
       <div class="image">
-        <img src="../assets/images/hero-image.jpg" />
+        <img src="../../assets/images/hero-image.jpg" />
       </div>
     </div>
   </section>
@@ -23,17 +23,17 @@
 
       <ul>
         <li>
-          <img src="../assets/images/expert-instructor.svg" />
+          <img src="../../assets/images/expert-instructor.svg" />
           <h3>Expert Instructors</h3>
           <p>With an expert instructor we make sure your course going well</p>
         </li>
         <li>
-          <img src="../assets/images/online-courses.svg" />
+          <img src="../../assets/images/online-courses.svg" />
           <h3>Online Courses</h3>
           <p>Choose your course from 1 Milion+ online video classes</p>
         </li>
         <li>
-          <img src="../assets/images/lifetime-access.svg" />
+          <img src="../../assets/images/lifetime-access.svg" />
           <h3>Lifetime Access</h3>
           <p>
             Skooli ensured your access for life time. And skooli grants your
@@ -41,7 +41,7 @@
           </p>
         </li>
         <li>
-          <img src="../assets/images/certification.svg" />
+          <img src="../../assets/images/certification.svg" />
           <h3>Certification</h3>
           <p>
             Skooli ensured your access for life time. And skooli grants your
@@ -55,7 +55,7 @@
   <section class="hero2">
     <div class="wrapper">
       <div class="image">
-        <img src="../assets/images/platform-skill.jpg" />
+        <img src="../../assets/images/platform-skill.jpg" />
       </div>
 
       <div class="content">
@@ -83,15 +83,15 @@
       </div>
       <ul>
         <li>
-          <img src="../assets/images/science.svg" />
+          <img src="../../assets/images/science.svg" />
           <h3>Science</h3>
           <p>35 Courses available</p>
           <span>
             <span class="tutor-count">
-              <img src="../assets/images/person-icon.svg" /> 100+Tutors
+              <img src="../../assets/images/person-icon.svg" /> 100+Tutors
             </span>
             <span class="location-available">
-              <img src="../assets/images/location-pin.svg" /> Online and
+              <img src="../../assets/images/location-pin.svg" /> Online and
               in-person
             </span> </span
           ><br />
@@ -99,15 +99,15 @@
         </li>
 
         <li>
-          <img src="../assets/images/finance.svg" />
+          <img src="../../assets/images/finance.svg" />
           <h3>Finance</h3>
           <p>15 Courses available</p>
           <span>
             <span class="tutor-count">
-              <img src="../assets/images/person-icon.svg" /> 50+Tutors
+              <img src="../../assets/images/person-icon.svg" /> 50+Tutors
             </span>
             <span class="location-available">
-              <img src="../assets/images/location-pin.svg" /> Online and
+              <img src="../../assets/images/location-pin.svg" /> Online and
               in-person
             </span>
           </span>
@@ -116,30 +116,30 @@
         </li>
 
         <li>
-          <img src="../assets/images/sports.svg" />
+          <img src="../../assets/images/sports.svg" />
           <h3>Sports</h3>
           <p>25 Courses available</p>
           <span>
             <span class="tutor-count">
-              <img src="../assets/images/person-icon.svg" /> 20+Tutors
+              <img src="../../assets/images/person-icon.svg" /> 20+Tutors
             </span>
             <span class="location-available">
-              <img src="../assets/images/location-pin.svg" /> In-person
+              <img src="../../assets/images/location-pin.svg" /> In-person
             </span> </span
           ><br />
           <a href="#" class="view-details">View Details</a>
         </li>
 
         <li>
-          <img src="../assets/images/mechanical.svg" />
+          <img src="../../assets/images/mechanical.svg" />
           <h3>Mechanical</h3>
           <p>16 Courses available</p>
           <span>
             <span class="tutor-count">
-              <img src="../assets/images/person-icon.svg" /> 30+Tutors
+              <img src="../../assets/images/person-icon.svg" /> 30+Tutors
             </span>
             <span class="location-available">
-              <img src="../assets/images/location-pin.svg" /> In-person
+              <img src="../../assets/images/location-pin.svg" /> In-person
             </span>
           </span>
           <br />
@@ -154,7 +154,7 @@
   <section class="hero3">
     <div class="wrapper">
       <div class="image">
-        <img src="../assets/images/online-classes.png" />
+        <img src="../../assets/images/online-classes.png" />
       </div>
 
       <div class="content">

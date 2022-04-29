@@ -1,5 +1,5 @@
 <template>
-  <div class="register-form">
+  <div class="login-form">
     <div class="title">
       <h3>Login with Skooli</h3>
     </div>
@@ -24,7 +24,7 @@ export default {};
 </script>
 
 <style>
-.register-form .title {
+.login-form .title {
   width: 85%;
   height: auto;
   margin: 0px auto;
@@ -44,7 +44,7 @@ button:hover {
   cursor: pointer;
 }
 
-.register-form {
+.login-form {
   width: 520px;
   /* height: 300px; */
   /* min-height: 360px; */
@@ -56,17 +56,17 @@ button:hover {
   margin-top: 14vh;
   padding: 25px;
 }
-.register-form .title {
+.login-form .title {
   width: auto;
   height: auto;
   text-align: center;
   margin-bottom: 50px;
 }
-.register-form .title h3 {
+.login-form .title h3 {
   font-size: 17px;
   font-weight: bold;
 }
-.register-form .form {
+.login-form .form {
   width: 85%;
   height: auto;
   margin: 0px auto;
